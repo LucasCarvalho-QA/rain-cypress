@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cypress": "^9.3.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "cypress run --spec cypress/rain-tests/*.spec.js"
+  }
+}
