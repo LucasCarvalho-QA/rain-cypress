@@ -8,6 +8,7 @@ A video report is generated for a test suite under /cypress/videos
 **DOCKER**
 Docker container: https://hub.docker.com/r/assertconsulting/rain-tests-cypress
 Docker construction step by step:
+
     1. Install docker desktop    
     2. Open CMD    
       1. cd C:\Repos\AssertConsulting\rain-cypress-framework
