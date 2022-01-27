@@ -3,7 +3,9 @@
 **CYPRESS**
 
 All codes are under rain-cypress branch
+
 All tests created are under /cypress/rain-tests/
+
 A video report is generated for a test suite under /cypress/videos
 
 **DOCKER**
