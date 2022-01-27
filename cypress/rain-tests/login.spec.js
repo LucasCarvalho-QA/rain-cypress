@@ -13,14 +13,14 @@ describe('example to-do app', () => {
         return Math.floor(Math.random() * (max - min)) + min;
       }
 
-    it.skip('Authentication - Login - Wrong e-mail and password', () => {
+    it('Authentication - Login - Wrong e-mail and password', () => {
         cy.get('#field-2').type(email).should('have.value', email)
         cy.get('#field-3').type(password)
         cy.get('.css-1rzutw8').click()
         cy.get('span').should('contain', messageValidation_WrongEmailOrPassword)
     })
 
-    it.skip('Authentication - Forgot password - Create a new password with invalid confirmation code', () => {
+    it('Authentication - Forgot password - Create a new password with invalid confirmation code', () => {
         cy.get('.chakra-input__right-element > .chakra-button').click()
         cy.get('#field-4').type(email).should('have.value', email)
         cy.get('.css-16t9v0m').click()
