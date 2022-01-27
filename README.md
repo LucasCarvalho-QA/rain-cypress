@@ -10,7 +10,7 @@ A video report is generated for a test suite under /cypress/videos
 
 **DOCKER**
 
-Docker container: https://hub.docker.com/r/assertconsulting/rain-tests-cypress
+Docker container: https://hub.docker.com/r/assertconsulting/rain-tests-cypress/tags
 
 Docker construction step by step:
 
